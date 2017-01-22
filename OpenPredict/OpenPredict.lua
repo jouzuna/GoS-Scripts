@@ -6,7 +6,6 @@ local TEAM_NONE = 0
 local TEAM_ALLY = GetTeam(localHero)
 local TEAM_ENEMY = 300 - TEAM_ALLY -- Inspired by nebelwaffle
 local TEAM_NEUTRAL = 300
-local TEAM_ENEMY = TEAM_NEUTRAL - TEAM_ALLY
 
 -- PATH MANAGER
 local PathManager = { }
